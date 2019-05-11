@@ -1,0 +1,71 @@
+body {
+    width: 960px;
+    height: 1000px;
+    background-color: grey;
+}
+#titleBox {
+    background-color: #c67229;
+    margin-left: 20px;
+    height: 70px;
+    width: 400px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    font-size: 40px;
+}
+#parentTitleBox { 
+    margin: 10px auto auto 10px;    
+}
+#instructionBox{
+    margin: 10px auto auto 10px;
+    width: 600px;
+    height: 500px;
+    background-color: #f9e4cd;
+    color: green;
+}
+#parentRanWlBox{
+    margin: 10px 0 0 10px;
+    width: 500px;
+    height: 250px;
+    clear: both;
+    /* background-color: orange; */
+}
+
+#smallScoreBox{
+    margin: 10px auto auto 10px;
+    width: 325px;
+    height: 50px;
+    background-color:#53b97f;
+}
+#bigScoreBox{
+    margin: 0px auto auto 5px;
+    width: 325px;
+    height: 150px;
+    background-color:#53b97f;
+}
+.randomNumBox{
+    width: 65%;
+    height: 100%;
+    float: left;
+    background-color: #5ac77c;
+}
+.winLoseBox{
+    width: 35%;
+    height: 100%;
+    float: left;
+    background-color: #4bfdfc;
+}
+/* #parentGameButtons{ */
+    /* margin: 35px auto auto 10px; */
+    /* height: 200px; */
+    /* width: 600px; */
+    /* background-color: orange; */
+/* } */
+.crystal{
+    width:75px;
+    height: 100px;
+    margin: 10px 5px 10px 5px;
+    float: left;
+    background-color: blue;
+}
